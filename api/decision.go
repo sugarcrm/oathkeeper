@@ -21,6 +21,7 @@
 package api
 
 import (
+	"html/template"
 	"net/http"
 	"strings"
 
@@ -128,7 +129,7 @@ func (h *DecisionHandler) decisions(w http.ResponseWriter, r *http.Request) {
 			continue
 		}
 
-		w.Header().Set(k, s.Header.Get(k))
+		w.Header().Set(template.HTMLEscapeString(k), template.HTMLEscapeString(s.Header.Get(k)))
 	}
 
 	w.WriteHeader(http.StatusOK)
