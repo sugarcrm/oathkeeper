@@ -5,7 +5,7 @@ replace gopkg.in/DataDog/dd-trace-go.v1 => gopkg.in/DataDog/dd-trace-go.v1 v1.27
 require (
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.9.0
-	github.com/Masterminds/sprig/v3 v3.1.0
+	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
 	github.com/auth0/go-jwt-middleware v1.0.0
 	github.com/aws/aws-sdk-go v1.31.13
@@ -30,7 +30,7 @@ require (
 	github.com/google/go-replayers/httpreplay v0.1.0
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/websocket v1.4.2
-	github.com/imdario/mergo v0.3.8
+	github.com/imdario/mergo v0.3.11
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/karrick/godirwalk v1.16.1 // indirect
 	github.com/lib/pq v1.3.0
@@ -66,9 +66,9 @@ require (
 	github.com/urfave/negroni v1.0.0
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	gocloud.dev v0.20.0
-	golang.org/x/crypto v0.0.0-20201203163018-be400aefbc4c
+	golang.org/x/crypto v0.3.0
 	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
-	golang.org/x/tools v0.0.0-20201029135353-690a3c245f28
+	golang.org/x/tools v0.1.12
 	google.golang.org/api v0.30.0
 	gopkg.in/square/go-jose.v2 v2.5.1
 )
