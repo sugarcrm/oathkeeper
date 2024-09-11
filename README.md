@@ -1,3 +1,4 @@
+<h1>DEPRECATED</h1>
 <h1 align="center"><img src="https://raw.githubusercontent.com/ory/meta/master/static/banners/oathkeeper.svg" alt="ORY Oathkeeper - Cloud Native Identity & Access Proxy"></h1>
 
 <h4 align="center">
